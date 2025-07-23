@@ -1,0 +1,12 @@
+node_modules
+build
+.cache
+.git
+*.log
+Dockerfile
+.dockerignore
+.env*
+compose.yml
+dist
+database
+data

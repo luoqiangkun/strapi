@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_navbars",
+  "info": {
+    "displayName": "Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "component": "shared.image",
+      "repeatable": false
+    },
+    "leftNavBar": {
+      "type": "component",
+      "component": "shared.nav",
+      "repeatable": true
+    },
+    "rightNavBar": {
+      "type": "component",
+      "component": "shared.nav",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

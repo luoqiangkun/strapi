@@ -1,0 +1,9 @@
+services:
+  strapi:
+    build: .
+    ports:
+      - 1337:1337
+    env_file:
+      - .env
+    volumes:
+      - ./public/uploads:/app/public/uploads

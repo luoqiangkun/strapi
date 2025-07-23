@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_markdowns",
+  "info": {
+    "displayName": "Markdown"
+  },
+  "options": {},
+  "attributes": {
+    "markdown": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultMarkdown"
+      }
+    }
+  },
+  "config": {}
+}

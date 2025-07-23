@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_images",
+  "info": {
+    "displayName": "Image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "URL": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self"
+      ]
+    }
+  },
+  "config": {}
+}

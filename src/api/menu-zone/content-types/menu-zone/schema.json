@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_zones",
+  "info": {
+    "singularName": "menu-zone",
+    "pluralName": "menu-zones",
+    "displayName": "menuZone"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "shared.menu",
+        "shared.image"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
